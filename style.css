@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "menu content content1"
+    "footer footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(255, 30, 79);
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+  width:200px;
+}
+.container div.content1 {
+  grid-area: content1;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+</style>
+</head>
+<body>
+
+<h1>Don Mariano Marcos Memorial State University</h1>
+<div class="header"><img src="Image 1.png" alt="logo demsu"></div>
+
+<div class="container">
+  <div class="header"><h2>Don Mariano Marcos Memorial State University</h2></div>
+  <div class="menu"><a href="#">HOME</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
+  <div class="content"><h3>WELCOME TO DMMMSU</h3><p></p></div>
+  <div class="content1"><h3>ADDS</h3><p>login Form</p><p>UserName</p><p>Password</p><div>
+  <div class="footer"><h4>Alright reserved 2026</h4></div>
+  </div>
+
+</body>
+
+</html>
+
